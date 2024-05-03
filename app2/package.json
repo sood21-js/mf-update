@@ -1,0 +1,27 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dmitriy-Logvinenko",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 8081",
+    "build": "next build",
+    "start": "next start -p 8080"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "8.3.12",
+    "@module-federation/typescript": "3.1.2",
+    "cross-env": "^7.0.3",
+    "next": "13.5.6",
+    "node": "^22.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0"
+  },
+  "devDependencies": {
+    "@next/env": "^14.2.3",
+    "@types/react": "18.0.26"
+  }
+}
